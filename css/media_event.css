@@ -1,0 +1,97 @@
+
+ /*---------------------------   start 760  ------------------------------ */
+@media screen and (max-width: 768px) { 
+
+	header{min-height: 600px;}
+	header .counter_container ul:first-child li{
+		width: auto;
+		font-size: 2.3em;
+		margin-right: 4%;
+	}	
+
+	header ul:last-child li{width: auto;}
+	.business_meet .event_img img{margin-left: 21%;}
+
+	.speakers .speaker {height: 500px;}
+	.schedules .right{display: none;}
+
+	.schedules .table {max-width: 100%;}
+	.sponser ul li {
+    margin-left: 30%;
+    display: block;
+    margin-bottom: 9%;
+	}
+
+	.travel_info .travel_option img{
+		margin-bottom: 6%;
+		width: 100px;
+		height: 120px;
+		margin-left: 43%;
+	}
+	.buy .mid , .buy .pricing {text-align: center;}
+	.sign button{
+		margin-left: 40%;
+		margin-top: 5%;
+		padding: 8px 43px;
+	}
+
+    .sign .form-group input{
+    	margin-left: 27%;
+    	margin-top: 4%;
+    }
+      
+
+}
+
+/*---------------------------   start 480  ------------------------------ */
+
+@media screen and (max-width: 480px) { 
+
+	.business_meet .event_img img {
+    margin-left: 8%;
+		}
+
+	.sign button {margin-left: 34%;}
+
+	.sponser ul { margin-left: 0%;}
+     .sponser .more__{margin-left: 25%}
+     footer a.logo{margin-left: 22%}
+
+    }
+
+/*---------------------------   start 360  ------------------------------ */
+@media screen and (max-width: 360px) {
+
+	header .counter_container ul:first-child li {
+		font-size: 2em;
+		margin-right: 4%;
+	}
+	header ul:last-child li{
+		font-size: 0.9em;
+		margin-left: -4px;
+	}
+
+	.sponser ul li {margin-left: 19%;}
+	.sponser .more__ {
+    margin-left: 19%;
+    }
+
+    .travel_info .travel_option img {margin-left: 36%;}
+    .sign .form-group input {
+    margin-left: 0%;
+    margin-top: 9%;
+    width: 100%;
+    }
+    .sign button{margin-left: 30%;margin-top: 8%;}
+    .signup h3{margin-top: 23%}
+    footer a.logo {margin-left: 14%;}
+    footer p{margin-top: 4%}
+    
+
+    
+}
+
+
+
+
+

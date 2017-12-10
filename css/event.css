@@ -1,0 +1,411 @@
+
+
+
+header{
+	background-image: url(../images/header1.jpg);
+	margin-top: -74px;	
+	background-position: center;
+	background-size: cover;
+	min-height: 750px;
+	position: relative;
+}
+header .counter_container{
+	position: absolute;
+	top: 40%;
+	left: 0;
+	width: 92%;
+margin-left: 8%;
+
+}
+header .counter_container ul:first-child li{
+	
+	font-size: 3.3em;
+	margin-left: 1%;
+	width: 8%;
+	font-weight: bold;
+}
+header .counter_container ul:first-child li:first-child{color: #FFF200}
+header .counter_container ul:first-child li:nth-child(2){color: #FF8A00}
+header .counter_container ul:first-child li:nth-child(3){color: #00B9FF}
+header .counter_container ul:first-child li:nth-child(4){color: #8DC63F}
+header .counter_container ul:last-child{
+	margin-left: 1%;
+}
+header ul:last-child li{
+	color: #FFF;
+	width: 8%;
+	margin-left: 5px;
+}
+header .title{
+	position: absolute;
+	top: 60%;
+}
+
+header .title p{
+	color: #FFF;
+	font-weight: bold;
+	font-size: 3em;
+}
+header .title span {
+	color: #FFF;
+	margin-top: -8px;
+	font-weight: bolder;
+	font-size: 1.1em;
+	display: inherit;
+}
+
+/*start business_meet*/
+.business_meet {
+	padding-top: 6%;
+	padding-bottom: 5%;
+}
+.business_meet .event_img img{max-height: 280px;}
+.business_meet .event_info h2{
+	color: #92278F;
+	font-weight: bold;
+	font-size: 2.5em;
+}
+.business_meet .event_info span{
+	color: #000;
+	font-size: 1.5em;
+	font-weight: bold;
+	display: inherit;
+	margin-top: -4px;
+	margin-bottom: 15px;
+}
+.business_meet .event_info button{
+	margin: 0px 20px 20px 0px;
+	padding: 15px 30px;
+	margin-top: 5%;
+	color:#FFF;
+	font-weight: bold;
+	opacity: 0.8;
+	transition: all 0.4s ease-in-out;
+}
+.business_meet .event_info button:first-of-type{background-color:#92278F;}
+.business_meet .event_info button:last-of-type{background-color: #8DC63F;}
+.business_meet .event_info button:hover{opacity: 1}
+
+/*start speakers*/
+.speakers{
+	background-image: url(../images/team.png);
+	background-size: cover;
+	background-position: center;
+	min-height: 700px;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+.speakers > h2{
+	color: #FFF; 
+	font-size: 2.6em;
+	font-weight: bold;
+	
+}
+.speakers .speaker{
+	height: 230px;
+	background-size: cover;
+	background-position: center;
+	margin-top: 10%;
+}
+.speakers .one{	background-image: url(../images/speaker1.jpg);}
+.speakers .two{	background-image: url(../images/speaker2.jpg);}
+.speakers .three{	background-image: url(../images/speaker3.jpg);}
+.speakers .four{	background-image: url(../images/speaker4.jpg);}
+
+
+.speakers .speaker a{
+	width: 50%;
+	height: 50%;
+	float: left;
+	padding: 17%;
+	color: #FFF;
+	transition: all 0.4s ease-in-out;
+	display: none;
+}
+.speakers .speaker:hover a{display: inline-block;}
+.speakers .speaker a:first-child{
+	background-color: rgb(57, 82, 150,0.7);
+}
+.speakers .speaker a:nth-child(2){
+	background-color: rgba(49, 171, 228 , 0.7);
+}
+.speakers .speaker a:nth-child(3){
+	background-color: rgba(208, 11, 118 ,0.7);
+}
+.speakers .speaker a:nth-child(4){
+	background-color: rgba(2, 2, 3 , 0.7);
+}
+
+  		/*Hover Effects*/
+.speakers .speaker a:first-child:hover{
+	background-color: rgb(57, 82, 150,1);
+}
+.speakers .speaker a:nth-child(2):hover{
+	background-color: rgba(49, 171, 228 ,1);
+}
+.speakers .speaker a:nth-child(3):hover{
+	background-color: rgba(208, 11, 118 ,1);
+}
+.speakers .speaker a:nth-child(4):hover{
+	background-color: rgba(2, 2, 3 , 1);
+}
+
+		/*End Hover*/
+.speakers .title{}
+.speakers .title h4 a{
+	color: #FFF;
+	font-weight: bold;
+	transition: all 0.4s ease-in-out;
+}
+.speakers .title h4:hover a{
+	text-decoration: none;
+	color: #561554;
+}
+.speakers .title span{color: #FFF}
+
+/*start schedules*/
+.schedules{
+	position: relative;
+	min-height: 800px;
+}
+.schedules h3{
+	font-size: 3em;
+	font-weight: bold;
+	margin-top: 8%;
+	margin-bottom: 4%;
+}
+.schedules h5{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.schedules .right{
+	
+	 position: absolute;
+	top: 0%;
+	right: 0;
+	height: 100%;
+}
+.schedules .left{
+	position: absolute;
+	top: 33%;
+	left: 0;
+	
+}
+.schedules .table{
+	max-width: 83%; 
+	margin-top: 5%;
+}
+.schedules  .table > thead:first-child > tr:first-child > th {
+    border-top: 0;
+}
+.schedules .table-hover th {
+   
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    font-weight: 600;
+    padding: 15px 10px;
+font-size: 14px;
+text-transform: uppercase;
+
+}
+.schedules .table-hover  thead tr:first-child{ background-color: #f0f0f0;}
+.schedules .more__{
+	font-size: 16px;
+line-height: 16px;
+color: rgb(0, 0, 0);
+background: rgb(255, 204, 0) none repeat scroll 0% 0%;
+border-radius: 4px;
+font-weight: 700;
+margin: 60px 0px 0px;
+padding: 16px 25px;
+display: inline-block;
+margin-left: 39%;
+transition: all 0.4s ease-in-out;
+}
+.schedules .more_schudles:hover{text-decoration: none;background: rgb(255, 204, 0 , 0.8)}
+
+/*start sponser*/
+.sponser{
+	background-image: url(../images/sponser.jpg);
+	background-size: cover;
+	background-position: center;
+	min-height: 500px;
+	padding-bottom: 7%;
+	padding-top: 5%;
+}
+
+.sponser h3{
+	font-size: 2.3em;
+	font-weight: bolder;
+}
+.sponser h5{
+	font-size: 1.1em;
+}
+.sponser h4{
+	margin-top: 7%;
+	font-weight: bolder;
+	margin-bottom: 5%;
+}
+.sponser ul{margin-left: 7%}
+.sponser ul li{margin-left: 5%;}
+.sponser .more__{
+	font-size: 16px;
+line-height: 16px;
+color: rgb(0, 0, 0);
+background: rgb(141, 198, 63) none repeat scroll 0% 0%;
+border-radius: 4px;
+font-weight: 700;
+padding: 15px 25px;
+display: inline-block;
+margin-left: 38%;
+margin-top:5%;
+margin-bottom: 3%;
+transition: all 0.4s ease-in-out;
+}
+.sponser .more__:hover{
+	text-decoration: none;
+	background-color: #65AD4C;
+	color: #FFF;
+
+}
+
+/*start travel_info*/
+
+.travel_info{padding-top: 8%}
+.travel_info h3{
+	font-size: 2.3em;
+	font-weight: bolder;
+	margin-bottom: 3%;
+}
+
+.travel_info .travel_option{
+	margin-top: 5%;
+}
+
+.travel_info .travel_option img{
+	display: block;
+	margin-left: 38%;
+	margin-bottom: 9%;
+}
+
+.travel_info .travel_option span{
+	font-size: 2em;
+	text-align: center;
+	display: block;
+
+}
+.travel_info  .travel_option p{margin-top: 4%;}
+
+/*start buy */
+
+.buy{
+	background-image: url(../images/bg1.jpg);
+	background-size: cover;
+	background-position: center;
+	margin-top: 7%;
+	color: #FFF;
+}
+.buy  .pricing .price{
+	font-size: 5em;
+	
+}
+.buy .pricing .day{
+	font-size: 13px;
+
+}
+.buy .pricing .category{
+	font-size: 2em;
+	font-weight: bold;
+	display: block;
+	margin-top: -13px;
+	margin-left: 5%;
+}
+.buy .pricing{padding: 20%;}
+.buy .mid{background-color: rgba(242,101,34, .7)}
+.buy .pricing ul{margin:10% 5% 10% 10%;}
+.buy .pricing ul li{
+	
+	margin-top: 7%;
+	font-size: 1.2em;
+}
+.buy .btn{
+	padding: 10px 24px;
+	margin-left: 5%;
+}
+
+/*start blog*/
+.blog{padding-top: 10%;padding-bottom: 5%}
+.blog h3{font-size: 2.5em; font-weight: bold;margin-bottom: 3%}
+.blog .image{height: 400px;}
+.blog .image img{height: 100%}
+.blog  span{
+	display: block;
+	margin-top: 8%;
+	margin-bottom: 3%;
+	color: #92278f;
+}
+.blog a:last-child{
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.3em;
+	transition: all 0.4s ease-in-out;
+}
+.blog a:last-child:hover{color: #8DC63F}
+/*start map*/
+.map{margin-top: 5%}
+
+/*start signup*/
+.signup{
+	background-image: url(../images/pattern-1.png);
+	background-color:#363F4A;
+	background-size: cover;
+	background-position: center;
+	min-height: 300px;
+}
+.signup h3{
+	color: #FFF;
+	font-weight: bold;
+	margin-bottom: 2%
+	
+}
+.sign .form-group{width: 100%}
+.sign .form-group input{
+	width: 30%;
+	width: 45%;
+	margin-left: 25%;
+	height: 40px;
+	border:none;
+}
+.sign {margin-top: 11%}
+.sign button{
+	padding: 8px 20px;
+background: #cbd504;
+color: #000;
+border-color: #cbd504;
+font-size: 16px;
+font-weight: bold;
+border: none;
+border-radius: 4px;
+margin-left: 15px;
+}
+footer{background:#343D47;min-height: 250px }
+footer a.logo{
+	display: inline-block;
+	width: 220px;
+	height: 60px;
+	margin-left: 38%;
+	margin-top: 5%;
+	margin-bottom: 2%;
+}
+footer a.logo img{width: 100%; height: 100%}
+footer p{
+	color: #999ea3;
+	text-align: center;
+}
+footer .social{margin-top: 3%}
+footer .social a{
+	margin-left: 2%;
+	color: #999ea3;
+}
